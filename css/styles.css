@@ -32,12 +32,20 @@ p {
 .container {
   width: 100%;
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section */
+
+.section {
+  padding: 94px 0;
 }
 
 /* Header */
 
 .header {
   background-color: var(--primary-background-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
