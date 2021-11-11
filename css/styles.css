@@ -41,6 +41,10 @@ p {
   padding: 94px 0;
 }
 
+.section.no__padding {
+  padding-top: 0;
+}
+
 /* Header */
 
 .header {
