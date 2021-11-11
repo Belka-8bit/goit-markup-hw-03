@@ -24,6 +24,7 @@ h5,
 h6,
 ul,
 p {
+  padding: 0;
   margin: 0;
 }
 
@@ -67,7 +68,6 @@ p {
 
 .list {
   list-style: none;
-  padding-left: 0px;
 }
 
 .nav__link {
@@ -112,6 +112,7 @@ p {
 
 .hero__title {
   color: var(--tittle-text-color);
+  max-width: 696px;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
