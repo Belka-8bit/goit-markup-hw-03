@@ -81,6 +81,7 @@ p {
 
 .header__address {
   color: var(--secondary-text-color);
+  display: inline-block;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
