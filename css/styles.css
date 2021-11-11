@@ -134,7 +134,7 @@ p {
   cursor: pointer;
 }
 
-.filter-btn {
+.filter__btn {
   background-color: var(--secondary-section-color);
   font-family: inherit;
   font-size: 16px;
@@ -146,12 +146,12 @@ p {
   cursor: pointer;
 }
 
-.filter-btn:hover {
+.filter__btn:hover {
   background-color: var(--accent-color);
   color: var(--tittle-text-color);
 }
 
-.filter-btn:focus {
+.filter__btn:focus {
   background-color: var(--accent-color);
   color: var(--tittle-text-color);
 }
@@ -212,7 +212,7 @@ p {
 
 /* Filter */
 
-.filter-title {
+.filter__title {
   color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 700;
@@ -220,7 +220,7 @@ p {
   letter-spacing: 0.06em;
 }
 
-.filter-text {
+.filter__text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
