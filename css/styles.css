@@ -172,6 +172,16 @@ p {
   cursor: pointer;
 }
 
+.btn__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.btn__inner:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter__btn {
   background-color: var(--secondary-section-color);
   font-family: inherit;
