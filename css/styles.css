@@ -46,6 +46,12 @@ p {
   padding-top: 0;
 }
 
+/* List style */
+
+.list {
+  list-style: none;
+}
+
 /* Header */
 
 .header {
@@ -70,10 +76,6 @@ p {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-}
-
-.list {
-  list-style: none;
 }
 
 .nav__main {
