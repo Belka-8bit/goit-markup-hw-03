@@ -197,16 +197,6 @@ p {
   cursor: pointer;
 }
 
-.filter__btn:hover {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
-}
-
-.filter__btn:focus {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
-}
-
 /* Specials */
 
 .title__hidden {
@@ -310,6 +300,30 @@ p {
 }
 
 /* Filter */
+
+.filter__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter__card {
+  width: 370px;
+  border: 1px solid #eeeeee;
+}
+
+.filter__card img {
+  display: block;
+}
+
+.filter__btn:hover {
+  background-color: var(--accent-color);
+  color: var(--tittle-text-color);
+}
+
+.filter__btn:focus {
+  background-color: var(--accent-color);
+  color: var(--tittle-text-color);
+}
 
 .filter__title {
   color: var(--primary-text-color);
