@@ -201,19 +201,15 @@ p {
   cursor: pointer;
 }
 
-.filter__btn:hover {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
-}
-
+.filter__btn:hover,
 .filter__btn:focus {
   background-color: var(--accent-color);
   color: var(--tittle-text-color);
 }
 
-.filter__btn.current:hover,
-.filter__btn.current:focus {
+.filter__btn.active:active {
   background-color: var(--accent-color);
+  color: var(--tittle-text-color);
 }
 
 /* Specials */
