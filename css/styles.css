@@ -62,6 +62,7 @@ p {
 
 .header__inner {
   color: var(--primary-text-color);
+  padding: 24px 0;
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -72,6 +73,7 @@ p {
 
 .header__logo {
   color: var(--accent-color);
+  padding: 24px 0;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -112,6 +114,7 @@ p {
 .header__address {
   color: var(--secondary-text-color);
   display: inline-block;
+  padding: 32px 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -138,6 +141,7 @@ p {
 
 .hero {
   background-color: var(--primary-section-color);
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -197,8 +201,22 @@ p {
   cursor: pointer;
 }
 
-/* Specials */
+.filter__btn:hover {
+  background-color: var(--accent-color);
+  color: var(--tittle-text-color);
+}
 
+.filter__btn:focus {
+  background-color: var(--accent-color);
+  color: var(--tittle-text-color);
+}
+
+.filter__btn.current:hover,
+.filter__btn.current:focus {
+  background-color: var(--accent-color);
+}
+
+/* Specials */
 .title__hidden {
   position: absolute;
   width: 1px;
@@ -248,7 +266,10 @@ p {
 
 .specialist__inner {
   display: flex;
-  justify-content: space-between;
+}
+
+.specialist__work:not(:last-child) {
+  margin-right: 30px;
 }
 
 .specialist__inner img {
@@ -266,7 +287,10 @@ p {
 
 .specialist__list {
   display: flex;
-  justify-content: space-between;
+}
+
+.specialist__card:not(:last-child) {
+  margin-right: 30px;
 }
 
 .specialist__card {
@@ -327,16 +351,6 @@ p {
   margin-bottom: 0;
 }
 
-.filter__btn:hover {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
-}
-
-.filter__btn:focus {
-  background-color: var(--accent-color);
-  color: var(--tittle-text-color);
-}
-
 .filter__title {
   color: var(--primary-text-color);
   margin: 0 24px;
@@ -366,6 +380,8 @@ p {
 .footer__inner {
   color: var(--tittle-text-color);
   font-family: "Raleway", sans-serif;
+  display: block;
+  margin-bottom: 20px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -382,16 +398,18 @@ p {
 
 .footer__text {
   color: var(--tittle-text-color);
-  margin-top: 20px;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
 
+.footer__info {
+  margin-bottom: 9px;
+}
+
 .footer__address {
   color: var(--footer-address-color);
-  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
