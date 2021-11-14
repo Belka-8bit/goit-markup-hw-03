@@ -308,6 +308,8 @@ p {
 
 .specialist__card img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .specialist__text h3 {
